@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 99991
+    timeout-minutes: 43200
     steps:
     - name: Download Ngrok.
       run: |
